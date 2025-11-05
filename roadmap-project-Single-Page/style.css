@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.container {
+    padding: 50px;
+}
+
+.green {
+    color: rgb(0, 180, 0);
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.blue {
+    color: rgb(75, 145, 205);
+    font-size:large;
+
+}
+.dark {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.link {
+    text-decoration: none;
+    color: rgb(70, 130, 180);
+}
+.link:hover {
+    color: rgb(176, 196, 222);
+}
+.link:active {
+    color: rgb(176, 224, 230);
+}
+.link:visited {
+    color: rgb(123, 104, 238);
+}
